@@ -4,6 +4,10 @@
 */
 
 use Slim\Container;
+use Monolog\Handler\RotatingFileHandler;
+use Monolog\Logger;
+use Psr\Log\LoggerInterface;
+
 
 /** @var \Slim\App $app */
 $container = $app->getContainer();
@@ -37,10 +41,6 @@ $container['view'] = function (Container $container) {
 };
 
 // Register the monolog logger
-
-use Monolog\Handler\RotatingFileHandler;
-use Monolog\Logger;
-use Psr\Log\LoggerInterface;
 
 $container['logger'] = function (Container $container) {
     $settings = $container->get('settings');
