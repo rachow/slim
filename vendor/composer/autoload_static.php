@@ -9,6 +9,7 @@ class ComposerStaticInit741857036ecead9be2ca937d8b01bf07
     public static $files = array (
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
+        'bbf73f3db644d3dced353b837903e74c' => __DIR__ . '/..' . '/php-di/php-di/src/DI/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -27,6 +28,7 @@ class ComposerStaticInit741857036ecead9be2ca937d8b01bf07
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'PhpDocReader\\' => 13,
         ),
         'M' => 
         array (
@@ -34,11 +36,17 @@ class ComposerStaticInit741857036ecead9be2ca937d8b01bf07
         ),
         'I' => 
         array (
+            'Invoker\\' => 8,
             'Interop\\Container\\' => 18,
         ),
         'F' => 
         array (
             'FastRoute\\' => 10,
+        ),
+        'D' => 
+        array (
+            'DI\\Bridge\\Slim\\' => 15,
+            'DI\\' => 3,
         ),
     );
 
@@ -71,9 +79,17 @@ class ComposerStaticInit741857036ecead9be2ca937d8b01bf07
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'PhpDocReader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/phpdoc-reader/src/PhpDocReader',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Invoker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/invoker/src',
         ),
         'Interop\\Container\\' => 
         array (
@@ -82,6 +98,14 @@ class ComposerStaticInit741857036ecead9be2ca937d8b01bf07
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'DI\\Bridge\\Slim\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/slim-bridge/src',
+        ),
+        'DI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/php-di/src/DI',
         ),
     );
 
