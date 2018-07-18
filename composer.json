@@ -1,0 +1,15 @@
+{
+    "": {
+        "": ""
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "slim/twig-view": "^2.4",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload":{
+	    "ps-4": {
+		   "App\\": "core"
+	    }
+    }
+}
